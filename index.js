@@ -43,18 +43,18 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     });
 
+    // Accordion functionality when clicked
     function accordionCallback(button, accordionBody, otherAccordionNodes) {
         if (button.classList.contains("active")) {
-            accordionClose(button, accordionBody)
+            accordionClose(button, accordionBody);
         } else {
             accordionOpen(button, accordionBody)
             otherAccordionNodes.forEach((accordion) => {
                 accordionClose(
                     accordion.querySelector(".accordion-head button"),
                     accordion.querySelector(".accordion-body"),
-                )
-            })
+                );
+            });
         }
-        // button.classList.toggle("active")
     }
 });
