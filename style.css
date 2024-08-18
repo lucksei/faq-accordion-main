@@ -39,7 +39,7 @@ html {
     font-weight: 400;
 
     background-color: #f9f0ff;
-    background-image: url("/assets/images/background-pattern-mobile.svg");
+    background-image: url("./assets/images/background-pattern-mobile.svg");
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: -5px -5px;
@@ -142,7 +142,7 @@ html {
     height: 1px;
     margin: 25px 0 10px 0;
     left: 0;
-    background-image: url(/assets/images/line.svg);
+    background-image: url(./assets/images/line.svg);
     /* background-repeat: no-repeat; */
     background-size: contain;
 }
@@ -150,7 +150,7 @@ html {
 
 @media (min-width: 600px) {
     html {
-        background-image: url("/assets/images/background-pattern-desktop.svg");
+        background-image: url("./assets/images/background-pattern-desktop.svg");
     }
 
     .card {

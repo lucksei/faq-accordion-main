@@ -1,5 +1,5 @@
-const imgPlusIcon = "/assets/images/icon-minus.svg";
-const imgMinusIcon = "/assets/images/icon-plus.svg";
+const imgPlusIcon = "./assets/images/icon-minus.svg";
+const imgMinusIcon = "./assets/images/icon-plus.svg";
 
 function accordionClose(button, accordionBody) {
     button.classList.remove("active");
